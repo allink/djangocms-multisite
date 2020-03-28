@@ -10,8 +10,6 @@ except ImportError:
     # django 1.11 support
     from django.core.urlresolvers import set_urlconf
 
-from django.urls import set_urlconf
-
 from django.utils.cache import patch_vary_headers
 from django.utils.deprecation import MiddlewareMixin
 from django.utils.six.moves import urllib_parse as urlparse
